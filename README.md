@@ -21,7 +21,7 @@ This project provisions a production-grade infrastructure on AWS using **Terrafo
 
 ## 🏗 Architecture
 
-![Architecture Diagram]
+ Architecture Diagram
 
 <img width="1112" height="717" alt="Architecture" src="https://github.com/user-attachments/assets/3ed09574-3a14-4cfc-b195-f2dae0b86a26" />
 
