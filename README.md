@@ -42,22 +42,44 @@ This project provisions a production-grade infrastructure on AWS using **Terrafo
 
 1. **Clone the repo**
 
-```bash
-git clone https://github.com/yourusername/aws-infra-project.git
-cd aws-infra-project
-
-```
+   ```bash
+   git clone https://github.com/yourusername/aws-infra-project.git
+   cd aws-infra-project
+   ```
 
 2. Initialize Terraform
 
-terraform init
+   terraform init
 
 
 3. Customize variables
 
-Update variables.tf with your custom values
+   Update variables.tf with your custom values
 
 4. Plan and Apply
 
-terraform plan
-terraform apply
+   terraform plan
+   terraform apply
+
+
+🔐 Security Notes
+    
+    S3 buckets have encryption and private ACLs
+
+    RDS is not publicly accessible
+
+    VPC Endpoints used for private access to S3
+
+    IAM roles with least privilege access policies
+
+    Set own username and password for RDS database
+
+📄 License
+
+    This project is licensed under the MIT License
+
+🙋‍♂️ Author
+
+      Dinesh Mohan
+      GitHub
+      LinkedIn
