@@ -49,20 +49,24 @@ This project provisions a production-grade infrastructure on AWS using **Terrafo
 
 2. Initialize Terraform
 
+   ```bash
    terraform init
-
+   ```
 
 3. Customize variables
 
+   ```bash
    Update variables.tf with your custom values
+   ```
 
 4. Plan and Apply
 
+   ```bash
    terraform plan
    terraform apply
+   ```
 
-
-🔐 Security Notes
+## 🔐 Security Notes
     
     S3 buckets have encryption and private ACLs
 
@@ -74,11 +78,11 @@ This project provisions a production-grade infrastructure on AWS using **Terrafo
 
     Set own username and password for RDS database
 
-📄 License
+## 📄 License
 
     This project is licensed under the MIT License
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
       Dinesh Mohan
       GitHub
